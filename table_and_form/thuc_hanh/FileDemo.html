@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>tieu de</p><br>
+<input type="text" id="a1">
+<br>
+<input type="button" id="a2" value="button" onclick="hienThi()">
+<br>
+<input type="radio" name="radio" id="b1" value="1">
+<input type="radio" name="radio" id="b2" value="2">
+<input type="radio" name="radio" id="b3" value="3">
+<br>
+<input type="checkbox"  id="c1" value="1">
+<input type="checkbox"  id="c2" value="1">
+<input type="checkbox"  id="c3" value="1">
+<br>
+<select id="b">
+    <option value="gt1">1</option>
+    <option value="gt2">2</option>
+</select>
+<table border="1">
+    <tr>
+        <th>a</th>
+        <th>b</th>
+        <th>c</th>
+        <th>c</th>
+        <th>c</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+    </tr>
+</table>
+<script>
+function hienThi() {
+    let a = document.getElementById("a1").value;
+    let kq=a+"abc";
+    alert(kq)
+
+}
+</script>
+</body>
+</html>
